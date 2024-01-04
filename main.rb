@@ -312,3 +312,12 @@ puts "\n"
   my_italian_chef = ItalianChef.new
   my_italian_chef.make_chicken
   my_italian_chef.make_pasta
+
+#MAP
+list.map {|item| item * 2}
+
+#SELECT
+list.select {|item| item % 2 == 0}
+
+#REJECT 
+list.REJECT {|item| item % 2 == 0}
